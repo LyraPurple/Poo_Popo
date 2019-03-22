@@ -1,8 +1,12 @@
+cd C:\xampp\htdocs\examen_final\Documents_Revision
+
 git remote add origin https://github.com/LyraPurple/Poo_Popo.git
 git push -u origin master
 
+cd C:\xampp\htdocs\examen_final\Documents_Revision
+
 git init
-git add*
+git add *
 git commit -m "Mise en place"
 git remote add origin https://github.com/LyraPurple/Poo_Popo.git
 git push -u origin master
