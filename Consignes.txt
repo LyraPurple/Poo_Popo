@@ -1,13 +1,13 @@
-Prévoir 3 affichages : 
+✔️Prévoir 3 affichages : 
 
-°conducteur 
-°association_vehicule_conducteur 
-°vehicule 
+°conducteur ✔️
+°association_vehicule_conducteur ✔️
+°vehicule ✔️
 
-Mettre en place un menu de navigation pour accéder aux différents affichages.
+Mettre en place un menu de navigation pour accéder aux différents affichages.✔️
 
 
-Avec une approche conceptuelle orienté objet et une architecture MVC : 
+Avec une approche conceptuelle orienté objet et une architecture MVC : ✔️
 
 
 °Créez un formulaire pour chaque entité : conducteur, association_vehicule_conducteur et vehicule. 
@@ -37,7 +37,7 @@ Ces deux actions doivent être possible directement via la page web pour toutes 
         association_vehicule_conducteur
     ).
 
-    °Afficher le nombre de conducteur.
+°Afficher le nombre de conducteur.
 °Afficher le nombre de vehicule.
 °Afficher le nombre d’association.
 °Afficher les vehicules n’ayant pas de conducteur
