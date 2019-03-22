@@ -61,14 +61,15 @@ class AssociationVehiculeConducteur
     /**
      * On passe les données de $_POST dans l'instance AssociationVehiculeConducteur
      */
-    public function hydrate($parametresVehic)
+    public function hydrate($parametresAssoc)
     {
-        if (empty($parametresVehic)) {
+        if (empty($parametresAssoc) || !array_key_exists('id_vehicule', $parametresAssoc) || !array_key_exists('id_conducteur', $parametresAssoc)) {
             return;
         }
+        print_r($parametresAssoc);
         // On hydrate
-        $this->id_vehicule = intval($parametresConduct['id_vehicule']);
-        $this->id_conducteur = intval($parametresConduct['id_conducteur']);
+        $this->id_vehicule = intval($parametresAssoc['id_vehicule']);
+        $this->id_conducteur = intval($parametresAssoc['id_conducteur']);
     }
     /**
      * On vérifie que les données de la AssociationVehiculeConducteur soient valides
