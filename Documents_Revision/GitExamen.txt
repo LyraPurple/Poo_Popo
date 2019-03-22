@@ -13,3 +13,10 @@ git push -u origin master
 
 
 git clone https://github.com/LyraPurple/Poo_Popo.git
+
+
+
+git init
+git add *
+git commit -m "Base de donnay sql"
+git push

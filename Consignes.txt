@@ -1,0 +1,38 @@
+Prévoir 3 affichages : 
+
+°conducteur 
+°association_vehicule_conducteur 
+°vehicule 
+
+Mettre en place un menu de navigation pour accéder aux différents affichages.
+
+
+Avec une approche conceptuelle orienté objet et une architecture MVC : 
+
+
+°Créez un formulaire pour chaque entité : conducteur, association_vehicule_conducteur et vehicule. 
+°Réaliser des contrôles de saisie (les informations de type « texte » ne doivent pas être vide). 
+°Enregistrer les données dans les tables correspondantes de la base. 
+
+Pour chaque entité, 
+    créer une partie qui affichera chaque table sql en table html sur la page web. 
+    (
+        « conducteur », 
+        « vehicule » et 
+        « association_vehicule_conducteur » 
+    ). 
+    
+    
+Toujours dans une conceptualisation Orienté Objet et une architecture MVC : 
+
+°Développer une option permettant la suppression des enregistrements 
+    (prévoir un message demandant une confirmation). 
+°Développer une option permettant la modification des enregistrements 
+    (prévoir l'ouverture d'un formulaire pour effectuer les modifications). 
+
+Ces deux actions doivent être possible directement via la page web pour toutes les données 
+    (
+        conducteur, 
+        vehicule et 
+        association_vehicule_conducteur
+    ).
