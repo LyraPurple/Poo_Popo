@@ -36,3 +36,13 @@ Ces deux actions doivent être possible directement via la page web pour toutes 
         vehicule et 
         association_vehicule_conducteur
     ).
+
+    °Afficher le nombre de conducteur.
+°Afficher le nombre de vehicule.
+°Afficher le nombre d’association.
+°Afficher les vehicules n’ayant pas de conducteur
+°Afficher les conducteurs n’ayant pas de vehicule
+°Afficher les vehicules conduit par « Philippe Pandre »
+°Afficher tous les conducteurs (meme ceux qui n'ont pas de correspondance) ainsi que les vehicules
+°Afficher les conducteurs et tous les vehicules (meme ceux qui n'ont pas de correspondance)
+°Afficher tous les conducteurs et tous les vehicules, peut importe les correspondances. 
