@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX - Les bases</title>
+    <!-- https://courses.boxydev.com/js/ajax/#ajax-avec-javascript -->
+</head>
+<body>
+    <h1>JavaScript</h1>
+
+    <script>
+        // On instancie le moteur AJAX
+        var xhr = new XMLHttpRequest();
+        // On veut suivre l'évolution de la requête AJAX
+        xhr.addEventListener('readystatechange', function () {
+            if (4 === xhr.readyState) { // La requête est terminée
+                if (200 === xhr.status) { // La réponse a un status code 200
+                    // On récupère la réponse HTTP
+                    console.log(xhr.response);
+                    // Insérer ici une action javaScript (exemple:)
+                    // document.getElementsByTagName('h1')[0].innerHTML = xhr.response;
+                }
+            }
+        });
+        // Exécuter une requête HTTP
+        xhr.open('GET', './worker.php');
+        xhr.send();
+    </script>
+
+    Avec jQuery
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script>
+        $.get('./worker.php').done(function (data) {
+            console.log(data);
+        });
+
+        // Si on veut détailler la requête
+        $.ajax({
+            type: 'GET',
+            data: /* Si je veux ajoutay de lay donnay */,
+            url: './worker.php'
+        }).done(function (data) {
+            console.log(data);
+        });
+    </script>
+</body>
+</html>

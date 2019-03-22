@@ -1,0 +1,11 @@
+git remote add origin https://github.com/LyraPurple/Poo_Popo.git
+git push -u origin master
+
+git init
+git add*
+git commit -m "Mise en place"
+git remote add origin https://github.com/LyraPurple/Poo_Popo.git
+git push -u origin master
+
+
+git clone https://github.com/LyraPurple/Poo_Popo.git
