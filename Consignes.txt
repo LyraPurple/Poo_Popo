@@ -10,15 +10,15 @@ Mettre en place un menu de navigation pour accéder aux différents affichages.�
 Avec une approche conceptuelle orienté objet et une architecture MVC : ✔️
 
 
-°Créez un formulaire pour chaque entité : conducteur, association_vehicule_conducteur et vehicule. 
-°Réaliser des contrôles de saisie (les informations de type « texte » ne doivent pas être vide). 
-°Enregistrer les données dans les tables correspondantes de la base. 
+°Créez un formulaire pour chaque entité : conducteur, association_vehicule_conducteur et vehicule. ✔️
+°Réaliser des contrôles de saisie (les informations de type « texte » ne doivent pas être vide). ✔️
+°Enregistrer les données dans les tables correspondantes de la base. ✔️
 
 Pour chaque entité, 
     créer une partie qui affichera chaque table sql en table html sur la page web. 
     (
-        « conducteur », 
-        « vehicule » et 
+        « conducteur », ✔️
+        « vehicule » et ✔️
         « association_vehicule_conducteur » 
     ). 
     

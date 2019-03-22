@@ -27,5 +27,6 @@ $conducteurs = $conducteurManager->findAll();
 </table>
 
 <?php
+require_once __DIR__ . '/formulaire_conducteur.php';
 require_once __DIR__ . '/footer.php';
 ?>

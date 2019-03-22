@@ -21,8 +21,8 @@ class ConducteurManager
         $sql = 'INSERT INTO `vtc`.`conducteur` (`prenom`, `nom`) VALUES (:prenom, :nom)';
         $query = \Database::getInstance()->prepare($sql);
 
-        $query->bindValue(':prenom', $conducteur->getPrenom);
-        $query->bindValue(':nom', $conducteur->getNom);
+        $query->bindValue(':prenom', $conducteur->getPrenom());
+        $query->bindValue(':nom', $conducteur->getNom());
 
         return $query->execute();
     }

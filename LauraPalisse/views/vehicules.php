@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/header.php';
 $vehiculeManager = new Manager\VehiculeManager();
-$conducteurs = $vehiculeManager->findAll();
+$vehicules = $vehiculeManager->findAll();
 ?>
 
 <h1>Les Véhicules</h1>
@@ -9,7 +9,7 @@ $conducteurs = $vehiculeManager->findAll();
 <table class="table">
     <thead>
         <tr>
-            <th>Id</th>
+            <th>ID</th>
             <th>Marque</th>
             <th>Modele</th>
             <th>Couleur</th>
@@ -31,7 +31,6 @@ $conducteurs = $vehiculeManager->findAll();
 </table>
 
 <?php
-
-
+require_once __DIR__ . '/formulaire_vehicule.php';
 require_once __DIR__ . '/footer.php';
 ?>

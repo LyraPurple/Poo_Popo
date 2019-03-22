@@ -66,7 +66,7 @@ class Vehicule
             $valid = false;
         }
 
-        if (!preg_match('/^[A-Z]{2}-\\d{3}-[A-Z]{2}$/', $this.immatriculation)) {
+        if (!preg_match('/^[A-Z]{2}-\\d{3}-[A-Z]{2}$/', $this->immatriculation)) {
             $valid = false;
         }
 

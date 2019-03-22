@@ -2,7 +2,7 @@ INSERT INTO `vtc`.`conducteur` (`prenom`, `nom`) VALUES ('Julien', 'Avigny');
 INSERT INTO `vtc`.`conducteur` (`prenom`, `nom`) VALUES ('Morgane', 'Alamia');
 INSERT INTO `vtc`.`conducteur` (`prenom`, `nom`) VALUES ('Philippe', 'Pander');
 INSERT INTO `vtc`.`conducteur` (`prenom`, `nom`) VALUES ('Amelie', 'Blondelle');
-INSERT INTO `vtc`.`conducteur` (`prenom`, `nom`) VALUES ('Alexax', 'Ricky');
+INSERT INTO `vtc`.`conducteur` (`prenom`, `nom`) VALUES ('Alex', 'Ricky');
 
 INSERT INTO `vtc`.`vehicule` (`id_vehicule`, `marque`, `modele`, `couleur`, `immatriculation`) VALUES ('501', 'Peugeaot', '807', 'noir', 'AB-355-CA');
 INSERT INTO `vtc`.`vehicule` (`marque`, `modele`, `couleur`, `immatriculation`) VALUES ('Citroen', 'C8', 'bleu', 'CE-122-AE');
