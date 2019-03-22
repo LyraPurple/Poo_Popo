@@ -19,7 +19,7 @@ Pour chaque entité,
     (
         « conducteur », ✔️
         « vehicule » et ✔️
-        « association_vehicule_conducteur » 
+        « association_vehicule_conducteur » ✔️
     ). 
     
     
@@ -37,8 +37,8 @@ Ces deux actions doivent être possible directement via la page web pour toutes 
         association_vehicule_conducteur
     ).
 
-°Afficher le nombre de conducteur.
 °Afficher le nombre de vehicule.
+°Afficher le nombre de conducteur.
 °Afficher le nombre d’association.
 °Afficher les vehicules n’ayant pas de conducteur
 °Afficher les conducteurs n’ayant pas de vehicule

@@ -2,7 +2,7 @@
 namespace Entity;
 class AssociationVehiculeConducteur
 {
-    private $idAssociation;
+    private $id_association;
     private $id_vehicule;
     private $marque;
     private $modele;
@@ -13,9 +13,9 @@ class AssociationVehiculeConducteur
     private $nom;
  
         
-    public function getIdAssociation()
+    public function getId_association()
     {
-        return $this->idAssociation;
+        return $this->id_association;
     }
 
     public function getId_vehicule()
