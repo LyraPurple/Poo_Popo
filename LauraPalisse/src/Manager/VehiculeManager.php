@@ -12,7 +12,7 @@ class VehiculeManager
      */
     public function findAll()
     {
-        return \Database::getInstance()->query('SELECT * FROM vehicule')->fetchAll(\PDO::FETCH_CLASS, \Entity\vehicule::class);
+        return \Database::getInstance()->query('SELECT * FROM vehicule')->fetchAll(\PDO::FETCH_CLASS, \Entity\Vehicule::class);
     }
 
     /**

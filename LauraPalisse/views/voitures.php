@@ -1,6 +1,7 @@
 <?php
 require_once __DIR__ . '/header.php';
 $vehiculeManager = new Manager\VehiculeManager();
+
 $vehicules = $vehiculeManager->findAll();
 ?>
 
